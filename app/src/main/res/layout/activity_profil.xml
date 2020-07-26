@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/komunitass"
+    tools:context=".Profil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="166dp"
+            android:layout_height="173dp"
+            android:layout_gravity="center"
+            android:src="@drawable/person" />
+
+        <TextView
+            android:id="@+id/txnama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:hint="Nama"
+            android:textColorHint="#8B8080"
+            android:textColor="#8B8080"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:hint="Email"
+            android:textColorHint="#8B8080"
+            android:textColor="#8B8080"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txnohp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:hint="No HP"
+            android:textColorHint="#8B8080"
+            android:textColor="#8B8080"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txalamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:hint="Alamat"
+            android:textColorHint="#8B8080"
+            android:textColor="#8B8080"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btnlogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/color_button_blue"
+            android:text="Log Out"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

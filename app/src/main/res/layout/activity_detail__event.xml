@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/komunitass">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txjdl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Event"
+            android:textColor="#718DA5"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/txdesk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="130dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Event"
+            android:textColor="#718DA5"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/txtgl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="130dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Event"
+            android:textColor="#718DA5"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btnedit"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="#718DA5"
+            android:fontFamily="@font/aclonica"
+            android:text="EDIT"
+            android:textColor="#FFC107" />
+
+        <Button
+            android:id="@+id/btndel"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="#718DA5"
+            android:fontFamily="@font/aclonica"
+            android:text="DELETE"
+            android:textColor="#FFC107" />
+    </LinearLayout>
+
+</RelativeLayout>

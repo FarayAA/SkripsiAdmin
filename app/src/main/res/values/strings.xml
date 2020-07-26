@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Skirpsi_Admin</string>
+    <string name="eror_msg_user">Masukkan Telepon</string>
+    <string name="eror_msg_pass">Masukkan Password</string>
+</resources>

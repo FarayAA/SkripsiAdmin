@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/komunitass">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txjdl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/aclonica"
+            android:hint="Judul Event"
+            android:textColor="#718DA5"
+            android:textColorHint="#718DA5"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/txdesk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="130dp"
+            android:fontFamily="@font/aclonica"
+            android:hint="Deskripsi Event"
+            android:textColor="#718DA5"
+            android:textColorHint="#718DA5"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/txtgl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="130dp"
+            android:fontFamily="@font/aclonica"
+            android:hint="Tanggal Event"
+            android:textColor="#718DA5"
+            android:textColorHint="#718DA5"
+            android:textSize="25dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/tgtlglbtn"
+            android:text="tgl"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="#718DA5"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="100dp"
+            android:text="ADD EVENT"
+            android:fontFamily="@font/aclonica"
+            android:textColor="#FFC107"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
